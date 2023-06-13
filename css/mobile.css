@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+/* Default styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+
+body{
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Manrope', sans-serif;
+  font-size: 28px;
+}
+
+/* Main styles */
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 97%;
+  width: 100%;
+  flex-direction: column;
+  background-color: hsl(218, 23%, 16%);
+}
+
+.advice-container{
+  background-color:  hsl(217, 19%, 24%);
+  height: auto;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow:  0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.advice-container h3{
+  color: hsl(150, 100%, 66%);
+  font-size: 18px;
+}
+
+.advice-container p{
+  margin: 20px;
+  color: #fff;
+}
+
+.pattern-divider{
+  height: 50px;
+  background-image: url(../images/pattern-divider-mobile.svg);
+  background-repeat: no-repeat;
+}
+
+.dice-container{
+  height: 65px;
+  padding: 15px;
+  background-color: hsl(150, 100%, 66%);
+  width: 70px;
+  margin: auto;
+  margin-bottom: -55px;
+  border-radius: 50%;
+}
+
+
+@media screen  and (min-width: 400px){
+
+  .advice-container{
+    width: 85%;
+    padding: 30px;
+    
+  }
+  
+}
+
+
+@media screen  and (max-width: 361px){
+  .advice-container{
+    padding: 16px;
+    
+  }
+}
