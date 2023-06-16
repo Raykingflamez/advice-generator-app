@@ -20,7 +20,7 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 97%;
+  height: 95%;
   width: 100%;
   flex-direction: column;
   background-color: hsl(218, 23%, 16%);
@@ -42,7 +42,7 @@ main{
 }
 
 .advice-container p{
-  margin: 20px;
+  margin: 20px 0;
   color: #fff;
 }
 
@@ -57,7 +57,7 @@ main{
   padding: 15px;
   background-color: hsl(150, 100%, 66%);
   width: 70px;
-  margin: auto;
+  margin-left: 36.8%;
   margin-bottom: -55px;
   border-radius: 50%;
 }
